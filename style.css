@@ -1,0 +1,84 @@
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #c8cde5;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(200, 205, 229, 0.5), rgba(118, 75, 162, 0.5));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(200, 205, 229, 0.5), rgba(118, 75, 162, 0.5))
+  }
+  .jj:hover {
+      background-color: pink !important;
+  }
+  .box1 {
+    height: 75%;
+    width: 75%;
+    background-color:#ffc0cb;
+    color: aliceblue;
+    border: 10px solid white;
+    padding: 25px;
+    margin: 25px;
+    margin-top: 205px;
+    
+  }/* Required for full background image */
+
+html,
+body,
+header,
+.view {
+height: 100%;
+}
+
+@media (max-width: 740px) {
+html,
+body,
+header,
+.view {
+height: 1000px;
+}
+}
+@media (min-width: 800px) and (max-width: 850px) {
+html,
+body,
+header,
+.view {
+height: 650px;
+}
+}
+
+.top-nav-collapse ,.page-footer{
+  background-color: #563e91 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+background: transparent !important;
+}
+
+@media (max-width: 991px) {
+.navbar:not(.top-nav-collapse) {
+background: #3f51b5 !important;
+}
+}
+
+.rgba-gradient {
+background: -webkit-linear-gradient(45deg, rgba(253, 250, 250, 0.1), rgb(255, 161, 161) 100%);
+background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%));
+background:  linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(254, 254, 255, 0.4) 100%);
+}
+
+.card {
+background-color: rgba(255, 182, 180, 0.6);
+}
+
+.md-form label {
+color: #ffffff;
+}
+
+h6 {
+line-height: 1.7;
+}
+.streak.streak-photo {
+  background-attachment: fixed;
+}
